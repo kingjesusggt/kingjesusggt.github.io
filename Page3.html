@@ -1,0 +1,82 @@
+<html>
+<head>
+<script>
+    
+ function myFunction(){
+
+
+  var pic = "Atlas.jpg"
+  document.getElementById('Atlas').src = pic.replace('90x90', '225x225');
+  document.getElementById('Atlas').style.display='block';
+	 
+document.getElementById("demo").innerHTML="Atlas is the the latest robot being developed to have humanoid features. Its control system cordinates the motion of the arms,torso and legs to accomplish body manipulation. Also its ability to balance helps it work in a large voulume while occupying a small work area. The robots hardware takes advantage of 3D printing to sace weight and space. It has stero vsions,range sesnsing and many other sensores give Atlas the capability to move things and to walk on tough terrian.  ";  }
+     
+{		
+document.getElementById("demo").style.textAlign="center";   }
+
+function myFunction2(){
+	
+var pic = "Spotmini.jpg"
+document.getElementById('Spotmini').src = pic.replace('90x90', '225x225');
+document.getElementById('Spotmini').style.display='block';
+	
+	
+document.getElementById("demo1").innerHTML=" What will the dogs of the future look look like? Look no furhter the robotic Spot Mini is a small four legged robot that fits an office or home. It is one of the qietest robots bulit by Boston dynamics. It can hold a charge for about 90 minutes but can vary depending on what it is doing. Its sensors include stero cameras,depth cameras and position/force sensors in its limbs,and the sensors hlep with: navigation, and mobil manipulation." ;    }
+
+	
+	{
+document.getElementById("demo1").style.textAlign="center";   }
+	
+function myFunction4(){
+	var pic = "hanson.jpg"
+document.getElementById('hanson').src = pic.replace('90x90', '225x225');
+	
+document.getElementById('hanson').style.display='block';
+document.getElementById("demo2").innerHTML="What makes Sophias AI wokr can be broken down into three sections. One a research platfrom for the teams AI research. Then speech reciting. And a robotic chatbot. ";    }
+	
+{
+document.getElementById("demo2").style.textAlign="center";   }
+
+</script>
+</head>
+<body bgcolor="black" text="green">
+    
+    <div style="border:6px solid green" align="center"><font size="6" color="green">Modern AI Robots</font></div>
+    <br>
+    <br>
+<button style="background-color:red"> <a href="Page1.html">History</a></button>
+<button style="background-color:lightblue"><a href="Page2.html">AI Computers</a></button>
+<button style="background-color:forestgreen"><a href="Page3.html">AI robitcs</a></button>
+<button style="background-color:burlywood"><a href="page4.HTML">Vidoes</a></button>
+	<br>
+	<br>
+	<button  style="background-color:green" type="button" onclick="myFunction()">Atlas</button>
+		<button style="background-color:forestgreen"><a href="https://www.bostondynamics.comatlas">Atlas website</a></button>
+	<br>
+	<br>
+	<button  style="background-color:green"type="button" onclick="myFunction2()">SpotMini</button>
+		<button style="background-color:forestgreen"><a href="https://www.bostondynamics.com/spot-mini">Spotmini website</a></button>	
+	<br>
+	<br>
+		<button style="background-color:green" type="button" onclick="myFunction4()">Sophia</button>
+	<button style="background-color:forestgreen"><a href="http://www.hansonrobotics.com/robot/sophia/">Sophia websit</a></button>
+
+<p id="demo"></p>
+<p id="demo1"> </p>
+<p id="demo2"> </p>
+
+
+
+    <img id="Atlas" src="Atlas.jpg" width="432" length="234" style="display:none;" />
+	<br>
+
+	<img id="Spotmini" src="Spotmini.jpg" width="432" length="234" style="display:none;" />
+	<br>
+	
+    <img id="hanson" src="hanson.jpg" width="432" length="234" style="display:none;" />
+	<br>
+	
+
+
+    </body>
+    </html>

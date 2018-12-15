@@ -1,0 +1,90 @@
+<hmtl>
+<head>
+
+
+</head>
+<body bgcolor="burlywood" text-="black">
+	
+	<div  style="border:5px solid black" align="center"><p><font size="9" color="black">Videos</font></p></div>
+	
+	<br>
+<button style="background-color:red"> <a href="Page1.html">AI beginnings</a></button>
+	
+<button style="background-color:lightblue"><a href="Page2.html">AI Computers</a></button>
+<button style="background-color:forestgreen"><a href="Page3.html">AI robitcs</a></button>
+<button style="background-color:burlywood"><a href="page4.HTML">Vidoes</a></button>
+	<br>
+	<br>
+	<div1 style="border:2px solid black ">Atlas</div1>
+	<br>
+	<br>
+<button style="background-color:aqua"onclick="playVid9()" type="button">Play Video</button>
+<button style="background-color:moccasin"onclick="pauseVid9()" type="button">Pause Video</button>
+	<br> 
+	<br>
+
+<video id="myVideo9" style="border:5px solid yellow"width="320" heigth="176">
+  <source src="Atlasminivideo.mp4" type="video/mp4">
+</video>
+
+<script> 
+var vid9 = document.getElementById("myVideo9"); 
+
+function playVid9() { 
+    vid9.play(); 
+} 
+
+function pauseVid9() { 
+    vid9.pause(); 
+} 
+</script> 
+	<br>
+	<br>
+	<div1 style="border:2px solid black">Spotmini</div1>
+	<br>
+	<br>
+<button style="background-color:lightsteelblue" onclick="playVid1()" type="button">Play Video</button>
+<button style="background-color:peachpuff"onclick="pauseVid1()" type="button">Pause Video</button><br> 
+<br>
+<video id="myVideo1" style="border:5px solid red" width="320" heigth="420">
+  <source src="spotminivideo.mp4" type="video/mp4">
+</video>
+
+<script> 
+var vid1 = document.getElementById("myVideo1"); 
+
+function playVid1() { 
+    vid1.play(); 
+} 
+
+function pauseVid1() { 
+    vid1.pause(); 
+} 
+</script> 	<br>
+	<br>
+	<div1 style="border:2px solid black">Sophia</div1>
+	<br>
+	<br>
+	
+	
+<button style="background-color: firebrick"onclick="playVid()" type="button">Play Video</button>
+<button style="background-color:ivory"onclick="pauseVid()" type="button">Pause Video</button><br> 
+<br>
+<video id="myVideo" width="320" heigth="420"style="border:5px solid blue">
+  <source src="sophiavideo.mp4" type="video/mp4">
+</video>
+
+<script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+    vid.play(); 
+} 
+
+function pauseVid() { 
+    vid.pause(); 
+} 
+</script> 
+	
+</body>
+</hmtl>
